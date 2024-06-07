@@ -1,0 +1,40 @@
+import { DashBoard } from "@/components/svg";
+
+export const menusConfig 			= {
+		mainNav: [
+				{
+						title: "대시보드"
+					,	icon: DashBoard
+					,	href: "/dashboard"
+					,
+				}
+			,
+		]
+	,	sidebarNav: {
+				modern: [
+						{
+								title: "대시보드"
+							,	icon: DashBoard
+							,	href: "/dashboard"
+							,
+						}
+					,
+				]
+			,	classic: [
+						{
+								isHeader: true
+							,	title: "menu"
+							,
+						}
+					,	{
+								title: "대시보드"
+							,	icon: DashBoard
+							,	href: "/dashboard"
+							,
+						}
+					,
+				]
+			,
+		}
+	,
+};

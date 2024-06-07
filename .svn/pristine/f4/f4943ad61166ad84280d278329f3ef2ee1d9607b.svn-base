@@ -1,0 +1,62 @@
+import { DashBoard, Pages } from "@/components/svg";
+
+export const menusConfig 			= {
+		mainNav: [
+				{
+						title: "홈"
+					,	icon: DashBoard
+					,	href: "/dashboard"
+					,
+				}
+			,	{
+						title: "프로젝트"
+					,	icon: Pages
+					,	href: "#"
+					,
+			}
+		]
+	,	sidebarNav: {
+				modern: [
+						{
+								title: "홈"
+							,	icon: DashBoard
+							,	href: "/dashboard"
+							,
+						}
+					,	{
+							title: "프로젝트"
+						,	icon: Pages
+						,	href: "#"
+						,
+					}	,	{
+								title: "프로젝트"
+							,	icon: Pages
+							,	href: "#"
+							,
+						}
+					,
+				]
+			,	classic: [
+						{
+								isHeader: true
+							,	title: "menu"
+							,
+						}
+					,	{
+								title: "대시보드"
+							,	icon: DashBoard
+							,	href: "/dashboard"
+							,
+						}
+					,	{
+								title: "프로젝트"
+							,	icon: Pages
+							,	href: "#"
+							,
+						}
+					,
+				]
+			,
+		}
+	,
+};
